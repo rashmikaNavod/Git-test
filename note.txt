@@ -1,0 +1,9 @@
+* Initialized empty git repo
+git init
+
+* staged to all changes
+git add .
+
+* committed with message "Initial commit" | save local repository
+git commit -m "Initial commit"
+
