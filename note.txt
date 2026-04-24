@@ -28,3 +28,6 @@ git checkout -b feature/add-multiply-function
 
 # switch existing branch named "main"
 git checkout main
+
+# list all branches in the repository
+git branch
