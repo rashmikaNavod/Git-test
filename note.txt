@@ -31,3 +31,6 @@ git checkout main
 
 # list all branches in the repository
 git branch
+
+# pull changes from remote repository and merge with local repository
+git pull origin main
