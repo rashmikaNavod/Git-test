@@ -7,3 +7,18 @@ git add .
 * committed with message "Initial commit" | save local repository
 git commit -m "Initial commit"
 
+# add remote repository
+git remote add origin <remote-repository-url>
+
+# verify remote repository
+git remote -v
+
+# rename default branch to main in local repository
+git branch -M main
+
+# push to remote repository and set upstream branch
+git push -u origin main
+
+# force push to remote repository (use with caution, as it can overwrite changes in the remote repository and 
+this run first time, so it will not cause any issues)
+git push -u origin main --force
