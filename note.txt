@@ -22,3 +22,6 @@ git push -u origin main
 # force push to remote repository (use with caution, as it can overwrite changes in the remote repository and 
 this run first time, so it will not cause any issues)
 git push -u origin main --force
+
+# create and switch to a new branch named "feature/add-multiply-function"
+git checkout -b feature/add-multiply-function
