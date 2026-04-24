@@ -34,3 +34,9 @@ git branch
 
 # pull changes from remote repository and merge with local repository
 git pull origin main
+
+# view commit history
+git log --oneline
+
+# amend the last commit
+git commit --amend -m "Updated commit message for the last commit"
